@@ -14,7 +14,7 @@ To help farmers keep track of their cattle (cow ID, gender, age, weight and loca
 
 # How the idea came about:
 
-With half of the team memebers only have a limited knowledge of coding, it was definite that arduino should be included in the project. Origianlly we thought of "What do cowbows and the wild west need", and we got to farming, as it was a ver important part for the agricultural society at that time. Farms are home to a lot of cattle, and the idea of keeping track of the cattle was made. Originally, this device was meant to keep cattle within a certain readius of a point and then alert a guard dog if one straed from the point in order to bring it back to the herd. However, after having heard of Radar.IO, we expanded that idea to a map with plots for the cows within that area, and the alert would then be given to the farmers themselves instead.
+With half of the team memebers only having a limited knowledge of coding, we really wanted arduino to be included in the project. Originally we thought of "What do cowboys and the wild west need?", and we got to farming. Farms are home to a lot of cattle, and so the idea of keeping track of the cattle was made. Originally, this device was meant to keep cattle within a certain radius of a point and then alert a guard dog if one strayed from the point in order to bring it back to the herd. However, after having heard of Radar.IO, we expanded that idea to a map with plots for the cows within that area, and the alert would then be given to the farmers themselves instead.
 
 # Goal
 ## General process of app

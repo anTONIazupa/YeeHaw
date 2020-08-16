@@ -57,7 +57,7 @@ The application will contain in itself the following:
 
 Once all the javascript code is done we would upload it to the web via netlifly and came personalize it by adding an account option so that multiple farmers could use the application.
 
-**The Domain name would be: Cow Valley **
+**The Domain name would be: Cow Valley**
 
 
 ## Why is this important to a farmer?

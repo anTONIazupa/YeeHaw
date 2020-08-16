@@ -14,8 +14,8 @@ byte colPins[4] = {7, 6, 5, 4};
 Keypad myKeypad = Keypad(makeKeymap(keys), rowPins, colPins, 4, 4);
 
 int ledPin = 13;
-int x;
-int y;
+int x;       //current number of cows in pen
+int y;       //amount of cows
 
 
 void setup() {
@@ -39,9 +39,9 @@ void loop() {
   
   {    
     if (x==y)
-digitalWrite(ledPin, LOW);
+digitalWrite(ledPin, LOW);     //LED turns off or stays off
 else
-digitalWrite(ledPin, HIGH);
+digitalWrite(ledPin, HIGH);   //LED to notify farmer becomes active
   }
   
 //  char keyPressed = myKeypad.getKey();

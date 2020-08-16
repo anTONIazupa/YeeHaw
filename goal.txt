@@ -1,4 +1,4 @@
-General process of app
+# General process of app
 
 
 generate 100 cow(dots) coordinates (need a longitude and latitude) and store the
@@ -23,10 +23,10 @@ When arduino read this a boolean value is sent through the system and
 the arduino light turns on notiying the farmer
 
 The notifcation also informs the farmer of which cow is outside the geofence
-The information is as follows: cow id, gender and age
+The information is as follows: cow id, gender, age, weight and location
 
 
-Details
+# Details :
 
 The cow information will be stored on google clouds SQL database
 

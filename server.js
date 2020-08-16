@@ -30,9 +30,17 @@ app.get("/", (req, res) => {
 /*
 app.post("/track", (req, res) => {
 
+this function would continusously run and update
 
-
-  track(user, pass);
+  track(cowID);
+  
+  track returns boolean value depending on if the cow is inside or outside the geofence
+  
+ if true
+    connect to arduino and notify farmer
+    
+ else
+    check next cowID in database
 
 });
 */

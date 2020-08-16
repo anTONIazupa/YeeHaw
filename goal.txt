@@ -1,16 +1,16 @@
 # General process of app
 
 
-generate 100 cow(dots) coordinates (need a longitude and latitude) and store the
+generate a numer(x) of cow(dots) coordinates (need a longitude and latitude) and store the
 cows data in a database
 
-Place 100 dots on the grid and create a geofence
+Place x dots on the grid and create a geofence
 
 set the geofence to inform when dots exit the area
 
 change location of every dot every 5 seconds to somewhere else in the grid
 
-num = random number between 0 and 100
+num = random number between 0 and x
 
 at moment of change num cows will be placed outside the grid
 

@@ -1,3 +1,5 @@
+//attempt at creating a geofence using gmaps and code based upon gmaps lib
+
 <!DOCTYPE html>
 <html>
   <head>

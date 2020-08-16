@@ -10,5 +10,5 @@ Must do npm i --save to import all packages needed for the code
 
 # Overarching goal:
 
-To help farmers keep track of their cattle (cow id, gender, age, weight and location) and notify the farmer a cow leave the farms property. 
+To help farmers keep track of their cattle (cow ID, gender, age, weight and location) and notify the farmer a cow leave the farms property. 
 

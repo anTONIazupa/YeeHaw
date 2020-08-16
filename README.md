@@ -10,22 +10,22 @@ Must do npm i --save to import all packages needed for the code
 
 # Overarching goal:
 
-To help farmers keep track of their cattle (cow ID, gender, age, weight and location) and notify the farmer a cow leave the farms property. 
+To help farmers keep track of their cattle (cow ID, gender, age, weight and location) and notify the farmer if a cow leaves the farm property. 
 
 
 # Goal
 ## General process of app
 
 
-generate 100 cow(dots) coordinates (need a longitude and latitude) and store the cows data in a database
+generate a number(x) of cow(dots) coordinates (need a longitude and latitude) and store the cows data in a database
 
-Place 100 dots on the grid and create a geofence
+Place x dots on the grid and create a geofence
 
 set the geofence to inform when dots exit the area
 
 change location of every dot every 5 seconds to somewhere else in the grid
 
-num = random number between 0 and 100
+num = random number between 0 and x
 
 at moment of change num cows will be placed outside the grid
 
@@ -51,11 +51,11 @@ The application will contain in itself the following:
 
 - The main page -) map of the farmers land and the suronding with a polygon shape
  acting as the boarders
- This will also show all the dots (cows) and their mouvement
+ This will also show all the dots (cows) and their movement
 
-- An datapage -) will will contain information of all the cows
+- A datapage which will contain information of all the cows
 
-Once all the javascript code is done we would upload it to the web via netlifly and came personalize it by adding an account option so that multiple farmers could use the application.
+Once all the javascript code is done we would upload it to the web via netlifly and can personalize it by adding an account option so that multiple farmers could use the application.
 
 **The Domain name would be: Cow Valley**
 

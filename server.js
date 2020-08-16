@@ -12,12 +12,12 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  fs.readFile("./public/index.html", "utf8", function (err, text) {
+  fs.readFile("./public/index.html", "utf8", function (err, text) {     //get html file from public folder
     res.send(text);
   });
 });
 app.get("/", (req, res) => {
-  fs.readFile("./public/about.html", "utf8", function (err, text) {
+  fs.readFile("./public/datapage.html", "utf8", function (err, text) {
     res.send(text);
   });
 });

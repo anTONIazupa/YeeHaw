@@ -35,6 +35,9 @@
           },
           zoom: 5
         });
+        
+        //Coordinate below represent an area in Texas as there we are imaginating our farm is located there
+        
         const triangleCoords = [
           {
             lat: 36.010006,
